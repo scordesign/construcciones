@@ -18,6 +18,7 @@ Route::get('/', function () {
 });
 
 Route::resource('users', UserController::class);
+
 Route::get('user', function () {
     return view('create');
 });
